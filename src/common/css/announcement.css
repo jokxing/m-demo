@@ -1,0 +1,87 @@
+#announcement .tab{
+    width: 100%;
+    height: 56px;
+    background: #fff;
+    border-top: 1px #E9E8E8 solid;
+    position: fixed;
+    top: 44px;
+    z-index: 1;
+}
+#announcement .tab ul li{
+    width: 20%;
+    line-height: 56px;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+#announcement .tab ul li::before{
+    content: '';
+    width: 50%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#announcement .tab ul li span{
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    position: absolute;
+    top: 16px;
+    right: 20%;
+    border-radius: 50%;
+}
+
+.announcement_no_data{
+    width: 100%;
+    height: 100%;
+}
+.announcement_no_data img{
+    width: 45%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.announcement_list{
+    margin-top: 72px;
+}
+
+.announcement_list ul li{
+    width: 100%;
+    background-color: #fff;
+    padding: 0 2% 14px 6%;
+    position: relative;
+    border-bottom: 1px #F3F3F3 solid;
+}
+.announcement_list ul li p{
+    padding-top: 12px;
+    color: #AFAFAF;
+}
+.announcement_list ul li p:last-child{
+    width: 88%;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.announcement_list ul li p.active{
+    color: #000;
+}
+.announcement_list ul li p.active:last-child{
+    color:"#575353"
+}
+
+.announcement_list ul li .left{
+    float: left;
+    width: 50%;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.announcement_list ul li .right{
+    float: right;
+    color: #AFAFAF;
+}
+

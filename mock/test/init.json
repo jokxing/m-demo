@@ -1,0 +1,32 @@
+{
+    "status_code": 200,
+    "message": {
+        "f_isSitemypurseOpen": 1,
+        "f_isSiteDepositOpen": 1,
+        "f_isSitewithdrawOpen": 1,
+        "f_isSitekfzxOpen": 1,
+        "f_isSitehyzxOpen": 1,
+        "f_isSportGameOpen": 1,
+        "f_isRealPeopleGameOpen": 1,
+        "f_isVideoGameOpen": 1,
+        "f_isLotteryGameOpen": 1,
+        "f_isChessGameOpen": 1,
+        "f_isFishGameOpen": 1,
+        "f_isAgentHost": 0,
+        "f_isSetLoginMobile": 1,
+        "f_isSetLoginPayPwd": 0,
+        "f_AgentCode": "",
+        "f_AgentHostKey": "",
+        "f_isLogin": 1,
+        "f_isReg": 1,
+        "f_LoginTip": null,
+        "f_RegTip": null,
+        "f_app": "https:\/\/sss.app\/",
+        "f_img": "https:\/\/pic.sss.cn\/",
+        "f_wap": "",
+        "f_capt": "1111",
+        "f_tel": "1111111",
+        "f_isKyChessGameOpen": 1,
+        "f_isImGameOpen": 0
+    }
+}

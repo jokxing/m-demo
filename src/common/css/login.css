@@ -1,0 +1,274 @@
+#login,
+#forgotPassword{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+#login{
+    background-color: #0a1d45;
+    overflow: auto;
+}
+#login::-webkit-scrollbar{
+    display: none;
+}
+
+#login .top_error_ts{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #fe3e62;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.login-err-enter-active {
+    transition: all .2s ease;
+}
+.login-err-leave-active {
+    transition: all .1s cubic-bezier(1.0, 1.0, 1.0, 1.0);
+}
+.login-err-enter, .login-err-leave-to {
+    transform: translateY(-40px);
+    opacity: 0;
+}
+
+.login_txt{
+    text-align: center;
+    margin-top: 20%;
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 5rem;
+}
+
+
+.login_tab{
+    width: 58%;
+    margin: 0 auto;
+    margin-top: 8%;
+    border: 1px rgba(250, 250, 250, 0.33) solid;
+    border-radius: 25px;
+}
+
+.login_tab ul li{
+    width: 50%;
+    height: 39px;
+    float: left;
+    text-align: center;
+    line-height: 38px;
+    color: #fff;
+    border-radius: 25px;
+}
+.login_tab ul li.active{
+    background-color: rgba(250, 250, 250, 0.18);
+}
+
+.login_from{
+    width: 78%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 12%;
+    position: relative;
+    overflow: hidden;
+}
+.login_from .login_main,
+.login_from .register_main{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    transition: all .2s;
+    overflow: hidden;
+}
+.login_from ul li{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px #fff solid;
+    margin-bottom: 7%;
+}
+.login_from ul li.sc_code{
+    height: 42px;
+    border-bottom: 0;
+    background-color: rgb(255 255 255 / 80%);
+}
+
+.login_from i.left{
+    float: left;
+    font-size: 1.2rem;
+    color: #fff;
+    padding-left: 5%;
+    padding-right: 12px;
+}
+.login_from i.right{
+    float: right;
+    font-size: 1rem;
+    color: #AEB1B1;
+    padding-right: 2%;
+}
+.login_from input{
+    width: 58%;
+    background: initial;
+    height: 40px;
+    color: #fff;
+    float: left;
+}
+
+.login_from .button{
+    width: 100%;
+    height: 44px;
+    border-radius: 25px;
+    color: #fff;
+    margin-top: 10%;
+}
+.login_from .button[disabled]{
+    opacity: 0.5;
+}
+
+.login_from .bot{
+    color: #fff;
+    line-height: 16px;
+}
+.login_main .bot label{
+    width: 44%;
+    display: block;
+    line-height: 16px;
+}
+.login_main .bot .remPass_border{
+    width: 15px;
+    height: 15px;
+    margin-left: 14%;
+    margin-right: 12px;
+    border-radius: 50%;
+    border: 1px #fff solid;
+    position: relative;
+    float: left;
+}
+.login_main .bot i{
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-image: url(../img/login_select.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.login_from .bot a{
+    color: #fff;
+}
+
+.login_main p{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 18px;
+    line-height: 20px;
+}
+.login_main p i{
+    font-size: 1.2rem;
+    vertical-align: bottom;
+}
+
+/* 注册 */
+.register_main .bot .fLeft{
+    width: 100%;
+    display: block;
+    line-height: 16px;
+    font-size: 0.6rem;
+}
+.register_main .bot a{
+    font-size: 0.6rem;
+}
+.register_main .bot .fLeft span{
+    color: #aeadac;
+}
+.register_main .bot .remPass_border{
+    width: 15px;
+    height: 15px;
+    margin-left: 6%;
+    margin-right: 9px;
+    border-radius: 50%;
+    border: 1px #fff solid;
+    position: relative;
+    float: left;
+}
+.register_main .bot i{
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-image: url(../img/login_select.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+/* 忘记密码 */
+#forgotPassword{
+    background-color: #0b294a;
+}
+#forgotPassword .bar.bar-light{
+    background-color: initial;
+    border-bottom: 0
+}
+#forgotPassword .bar.bar-light .title{
+    color: #fff;
+}
+#forgotPassword .bar-light .button.button-icon{
+    color: #fff;
+}
+
+
+
+/* 用户协议 */
+#agreement{
+    width: 92%;
+    margin: 0 auto;
+    margin-top: 7%;
+}
+#agreement h5{
+    margin-bottom: 14px;
+    font-weight: bold;
+}
+#agreement p{
+    margin-bottom: 14px;
+    text-indent: 2em;
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+}
+#agreement span{
+    width: 100%;
+    display: block;
+    line-height: 20px;
+}
+
+
+@media screen and (min-width: 320px) and (max-width:360px){
+    .login_sponsor{
+        width: 36%;
+    }
+}
+@media screen and (min-height: 480px) and (max-height:600px){
+    .login_txt {
+        margin-top: 4%;
+    }
+    .login_tab {
+        margin-top: 8%;
+    }
+    .login_from {
+        margin-top: 8%;
+    }
+}
+@media screen and (min-height: 480px) and (max-height:530px){
+    #login{
+        overflow: auto;
+    }
+}

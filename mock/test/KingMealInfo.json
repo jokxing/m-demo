@@ -1,0 +1,15 @@
+{
+    "status_code": 200,
+    "message": {
+        "matchTitle": "@ctitle()",
+        "guestTeamName": "@cword(3, 5)",
+        "guestTeamIcon": "",
+        "hostTeamIcon": "",
+        "hostTeamName": "@cword(3, 5)",
+        "matchStartTime": "@now()",
+        "bonus|3": [{
+            "name": "@cword(3, 5)",
+            "money|1-10": 1
+        }]
+    }
+}

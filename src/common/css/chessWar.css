@@ -1,0 +1,205 @@
+#battleOfKings .page.has-navbar .page-content{
+    padding-top: 44px;
+}
+#battleOfKings .banner{
+    width: 100%;
+    height: 26.25rem;
+}
+#battleOfKings .banner img{
+    width: 101%;
+}
+.battle_main{
+    background-color: #e7e7e5;
+}
+
+.app_hdzq_back{
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    top: 5px;
+    left: 3%;
+    z-index: 1;
+    opacity: 0.7;
+}
+.app_hdzq_back img{
+    width: 100%;
+}
+
+#battleOfKings h5{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 16px;
+}
+
+.battle_main > div{
+    position: relative;
+    width: 90%;
+    padding: 1.5rem 15px 15px;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 5px 5px 0 rgba(0,0,0,.05);
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,.05);
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.battle_main .battle_explain{
+    margin-top: -1.88rem;
+}
+.battle_explain ul li {
+    width: 100%;
+    margin-bottom: 5px;
+}
+.battle_explain ul li p{
+    float: left;
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+.battle_explain ul li p.left{
+    width: 22%;
+}
+.battle_explain ul li p.right{
+    width: 78%;
+}
+.battle_explain ul li:nth-child(2) p.right,
+.battle_explain ul li:first-child p.right{
+    font-weight: bold;
+}
+
+
+.count_down{
+    margin-top: 10px;
+    font-size: 0.8rem;
+    line-height: 2.125rem;
+}
+.count_down span{
+    line-height: 2.125rem;
+    text-align: center;
+    display: inline-block;
+    background-image: url('../img/discount/icon-djs.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 7%;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.duel_list table{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 0.8rem;
+    overflow: hidden;
+    border-collapse: separate;
+    border-spacing: 0
+}
+.duel_list table th{
+    height: 40px;
+    line-height: 40px;
+    border-right: 1px #7593f7 solid;
+}
+.duel_list table th:first-child{
+    border-left: 1px #7593f7 solid;
+    border-radius: 10px 0 0 0;
+}
+.duel_list table th:last-child{
+    border-radius: 0 10px 0 0;
+}
+
+.duel_list table td{
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    border-right: 1px #7593f7 solid;
+    border-bottom: 1px #7593f7 solid;
+}
+.duel_list table td:first-child{
+    border-left: 1px #7593f7 solid;
+}
+.duel_list table tbody tr:last-child td:first-child{
+    border-radius: 0 0 0 10px;
+}
+.duel_list table tbody tr:last-child td:last-child{
+    border-radius: 0 0 10px 0;
+}
+
+.duel_list table tbody tr:first-child td:first-child,
+.duel_list table tbody tr:nth-child(2) td:first-child,
+.duel_list table tbody tr:nth-child(3) td:first-child{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 33%;
+    font-size: 0;
+}
+.duel_list table tbody tr:first-child td:first-child{
+    background-image: url(../img/discount/icon-rank-1.png);
+}
+.duel_list table tbody tr:nth-child(2) td:first-child{
+    background-image: url(../img/discount/icon-rank-2.png);
+}
+.duel_list table tbody tr:nth-child(3) td:first-child{
+    background-image: url(../img/discount/icon-rank-3.png);
+}
+
+.duel_more{
+    margin-top: 10px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.battle_rule ul li{
+    padding-left: 5%;
+    position: relative;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+    line-height: 24px;
+    color: #727272;
+}
+.battle_rule ul li span{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.usdtRefund .battle_main{
+    background-color: #e8f5fb;
+}
+.battle_main .usdtRefund p{
+    text-indent: 2em;
+    line-height: 20px;
+    font-size: 0.8rem;
+}
+
+.usdtRefund_list table{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 0.8rem;
+    overflow: hidden;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #7593f7;
+}
+.usdtRefund_list table th{
+    height: 40px;
+    line-height: 40px;
+    border: 1px #8a8e9c solid;
+    vertical-align: top;
+}
+
+.usdtRefund_list table td{
+    text-align: center;
+    line-height: 24px;
+    border: 1px #7593f7 solid;
+    vertical-align: middle;
+    padding: 10px 0;
+    border-right: 0;
+}
+
+
+.duel .button{
+    width: 100%;
+    margin-top: 5%;
+}

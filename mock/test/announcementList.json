@@ -1,0 +1,10 @@
+{
+    "message|1-10": [{
+        "content": "@csentence()",
+        "date": "@datetime()",
+        "id|1000-9999": 1000,
+        "is_read": 0,
+        "title": "@ctitle()"
+    }],
+    "status_code": 200
+}

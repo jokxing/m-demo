@@ -1,0 +1,27 @@
+{
+    "status_code": 200,
+    "message": {
+        "chess": {
+            "start_time": "2021-09-10",
+            "start_time_str": 1631203200,
+            "end_time": "2021-10-10",
+            "end_time_str": 1633795200
+        },
+        "beat": {
+            "beat_time": "2021-11-10 00:00:00",
+            "beat_time_str": 1636473600
+        },
+        "chess_hand": {
+            "start_time": "2021-09-01",
+            "start_time_str": 1630425600,
+            "end_time": "2021-09-07",
+            "end_time_str": 1630944000
+        },
+        "chess_save": {
+            "start_time": "2021-06-26",
+            "start_time_str": 1624636800,
+            "end_time": "2021-06-30",
+            "end_time_str": 1625068799
+        }
+    }
+}

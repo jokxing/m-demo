@@ -1,0 +1,29 @@
+{
+    "id": 2,
+    "vip_level_logo": "",
+    "vip_level_name": "1等级",
+    "money|1-100.1-10": 0,
+    "qianshengbao_money": 0,
+    "nickname": null,
+    "is_bind": 1,
+    "dpt_bind": 1,
+    "name": "1111113",
+    "level": "1等级会员",
+    "message": 0,
+    "mobile": "184***8949",
+    "is_voicepass": 0,
+    "collect": "",
+    "act_fail": 1,
+    "wechat": null,
+    "task_num": 0,
+    "qq": null,
+    "bound_paypwd": true,
+    "created_at": "@datetime()",
+    "join_day": "@increment(1000)",
+    "meta": {
+        "wallet": 1,
+        "access_token": "",
+        "token_type": "Bearer",
+        "expires_in": 258000
+    }
+}

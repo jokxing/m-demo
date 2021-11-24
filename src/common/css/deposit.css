@@ -1,0 +1,193 @@
+.deposit{
+    margin-top: 15px;
+}
+
+.deposit h5{
+    padding: 8px 5%;
+    border-bottom: 1px #E9E8E8 solid;
+}
+
+.recharge_money{
+    padding: 8px 4%;
+}
+.recharge_money ul li{
+    width: 24%;
+    height: 36px;
+    line-height: 36px;
+    float: left;
+    margin-right: 1.33%;
+    text-align: center;
+    border: 1px #ECECEC solid;
+    background-color: #fff;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-bottom: 1.33%;
+}
+.recharge_money ul li:nth-child(4n+4){
+    margin-right: 0;
+}
+.recharge_money ul li span{
+    font-size: 0.6rem;
+}
+.recharge_money ul li.active{
+    border: 0px;
+    color: #fff;
+}
+
+.deposit_main p{
+    padding: 0 4%;
+    font-size: 0.6rem;
+    color: red;
+}
+
+.recharge_input{
+    padding: 0 4%;
+    margin-top: 10%;
+    position: relative;
+}
+.recharge_input span{
+    font-size: 0.6rem;
+    position: absolute;
+    line-height: 36px;
+    left: 7%;
+}
+.recharge_input input{
+    width: 100%;
+    height: 36px;
+    background-color: initial;
+    padding-left: 10%;
+    border-bottom: 1px #E9E8E8 solid;
+    font-size: 1rem;
+}
+.recharge_input input[readonly]{
+    background-color: initial;
+}
+
+.deposit_main .button{
+    width: 100%;
+    height: 44px;
+    margin-top: 15%;
+}
+
+.deposit .course p{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #000;
+}
+
+
+.depositTyep_bg{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(51, 51, 51, 0.5);
+}
+.depositTyep{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 70%;
+	background: #fff;
+	z-index: 2;
+}
+.depositTyep-fade-enter-active {
+  transition: all .3s ease;
+}
+.depositTyep-fade-leave-active {
+  transition: all .1s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.depositTyep-fade-enter,
+.depositTyep-fade-leave-to{
+  transform: translateY(70%);
+  opacity: 1;
+}
+
+.depositTyep .head{
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 1rem;
+	font-weight: bold;
+	color: #333;
+	border-bottom: 1px #eee solid;
+}
+.depositTyep .head i{
+	position: absolute;
+	top: 0;
+	left: 5%;
+	font-size: 1.2rem;
+}
+
+.depositTyep .main{
+	margin-top: 10%;
+	height: 100%;
+}
+.depositTyep .main .depositTyepList{
+	width: 100%;
+	height: 70%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.depositTyep .main .depositTyepList li{
+	width: 33%;
+	float: left;
+	text-align: center;
+	font-size: .6rem;
+	color: #6b6b6b;
+	margin-bottom: 14px;
+}
+.depositTyep .main .depositTyepList li.active > div{
+	background: rgba(33, 150, 243, 0.17);
+	border: 1px rgba(33, 150, 243, 0.17) solid;
+}
+.depositTyep .main .depositTyepList li.active p{
+	color: #02a3ef;
+}
+.depositTyep .main .depositTyepList li p{
+	margin-bottom: 0;
+	margin-top: 4px;
+	font-size: 14px;
+}
+
+.depositTyep .payList_img{
+	width: 54px;
+	height: 54px;
+	line-height: 50px;
+	background: #f9f9f9;
+	margin: 0 auto;
+	border-radius: 5px;
+	border: 1px #f9f9f9 solid;
+	position: relative;
+	overflow: hidden;
+}
+.depositTyep .payList_img img{
+	width: 50px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.depositTyep .payList_img .recommend{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.depositTyep_btn{
+	width: 90%;    
+	position: fixed;
+	bottom: 16px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.depositTyep_btn .button{
+	width: 100%;
+	border-radius: 5px;
+}
+

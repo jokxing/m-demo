@@ -1,0 +1,70 @@
+.helpCenter_main{
+    width: 100%;
+    margin-top: 10px;
+    background-color: #fff;
+    padding-left: 4%;
+    margin-bottom: 50px;
+}
+
+.helpCenter_main ul li{
+    width: 100%;
+    height: 58px;
+    line-height: 58px;
+    border-bottom: 1px #E9E8E8 solid;
+    font-size: 0.8rem;
+    padding-right: 8%;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.helpCenter_main ul li:last-child{
+    border-bottom: 0;
+}
+.helpCenter_main ul li a{
+    color: #000;
+}
+.helpCenter_main ul li span{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 16px;
+    color: #fff;
+    font-size: 0.6rem;
+    display: inline-block;
+    margin-right: 1%;
+}
+
+.helpCenter{
+    padding: 5%;
+}
+.helpCenter h5{
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 5%;
+    line-height: 24px;
+}
+.helpCenter p{
+    font-size: 0.8rem;
+    text-indent: 2em;
+    line-height: 22px;
+}
+.helpCenter table{
+    width: 100%;
+}
+.helpCenter table td{
+    border-right: 1px #eee solid;
+    border-bottom: 1px #eee solid;
+    vertical-align: middle;
+}
+.helpCenter table tr td:first-child{
+    width: 20%;
+    border-left: 1px #eee solid;
+    text-align: center;
+}
+.helpCenter table tr td:last-child{
+    padding: 4px;
+}
+.helpCenter table tr:first-child{
+    border-top: 1px #eee solid;
+}

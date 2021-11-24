@@ -1,0 +1,10 @@
+{
+    "status_code": 200,
+    "message|2":[
+        {
+            "pic": "@image('200x100', '#ffcc33')",
+            "href": "",
+            "ptitle": ""
+        }
+    ]
+}

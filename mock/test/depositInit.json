@@ -1,0 +1,29 @@
+{
+    "status_code": 200,
+    "message": {
+        "is_dpting": 0,
+        "money": "@range(500, 1000, 65)",
+        "nmoney": "@range(1001, 2000, 132)",
+        "Paylimit": {
+            "code1": {
+                "way": "1,2,3",
+                "min|500-550": 500,
+                "max|1500-2000": 1500,
+                "sort": 1
+            },
+            "code2": {
+                "min|500-550": 500,
+                "max|1500-2000": 1500,
+                "sort": 2
+            },
+            "code3": {
+                "min|500-550": 500,
+                "max|1500-2000": 1500,
+                "sort": 3
+            }
+        },
+        "account": "@cname()",
+        "bonus_rate": 1,
+        "bonus_count": 1
+    }
+}

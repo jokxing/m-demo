@@ -1,0 +1,219 @@
+#advance .page-content{
+    background-color: #cd4548;
+}
+
+.advance_banner img{
+    width: 100%;
+}
+
+.advance_main{
+    width: 92%;
+    margin: 0 auto;
+    padding-bottom: 10%;
+}
+
+.advance_top{
+    text-align: center;
+    margin-top: -5%;
+}
+.advance_top img{
+    width: 90%;
+}
+.advance_top img:last-child{
+    width: 80%;
+    margin-top: -2%;
+}
+
+
+.advance_club,
+.advance_match,
+.advance_exhibition,
+.advance_footballClub,
+.advance_cooper{
+    width: 100%;
+    padding: 30px;
+    margin-top: 10%;
+    position: relative;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+
+.advance_club,
+.advance_match{
+    width: 100%;
+    padding: 22px;
+    text-align: center;
+}
+.advance_club video{
+    width: 90%;
+    background-color: #ededed;
+}
+
+
+.advance_match{
+    padding-bottom: 10px;
+}
+.advance_match .advance_match_box{
+    width: 100%;
+    height: 156px;
+}
+.advance_match .slider-container{
+    margin-top: 10%;
+}
+.advance_match .slider-pagination-bullet-active{
+    background-color: #C10000;
+    width: 16px;
+    border-radius: 6px;
+}
+.advance_match_box ul{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.advance_match_box ul li{
+    width: 140px;
+    height: 106px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16); 
+    overflow: hidden;
+}
+.advance_match_box ul li:first-child{
+    margin-right: 5%;
+}
+.advance_match_box ul li .video{
+    width: 100%;
+    height: 78px;
+    background-color: #ededed;
+    position: relative;
+}
+.advance_match_box ul li .video video{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.advance_match_box ul li p{
+    text-align: center;
+    line-height: 26px;
+    color: #585858;
+    font-size: 0.6rem;
+}
+
+.advance_footballClub{
+    padding: 30px 22px;
+}
+.advance_footballClub > img{
+    width: 100%;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+.advance_footballClub p{
+    font-size: 0.7rem;
+    text-indent: 2em;
+}
+.advance_footballClub p span{
+    font-weight: bold;
+}
+
+.advance_footballClub h5{
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.advance_footballClub ul li{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    margin-bottom: 8%;
+}
+.advance_footballClub ul li:nth-child(7),
+.advance_footballClub ul li:nth-child(8),
+.advance_footballClub ul li:nth-child(9){
+    margin-bottom: 0;
+}
+.advance_footballClub ul li img{
+    height: 70px;
+    margin-bottom: 4%;
+}
+.advance_footballClub ul li h4{
+    font-size: 1rem;
+    color: #C00D2D;
+    margin-bottom: 4%;
+}
+.advance_footballClub ul li span{
+    font-size: 0.7rem;
+    color: #585858;
+}
+
+
+.advance_exhibition{
+    text-align: center;
+}
+.advance_exhibition .advance_exhibition_slider{
+    margin-top: 13%;
+}
+.advance_exhibition .swiper-slide{
+    width: 60%;
+}
+.advance_exhibition img{
+    width: 100%;
+}
+.advance_exhibition h5{
+    font-size: 0.8rem;
+    margin-top: 4%;
+}
+.advance_exhibition p{
+    color: #8F8F8F;
+    font-size: 0.8rem;
+}
+
+.advance_cooper ul{
+    margin-top: 10%;
+}
+.advance_cooper ul li{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 4%;
+}
+.advance_cooper ul li img{
+    width: 12%;
+    float: left;
+}
+.advance_cooper ul li > div{
+    float: left;
+    margin-left: 4%;
+}
+.advance_cooper ul li h5{
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+.advance_cooper ul p{
+    font-size: 0.6rem;
+    color: #8F8F8F;
+}
+
+.advance_cooper .bot{
+    width: 100%;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+    text-align: center;
+}
+.advance_cooper .bot img:first-child{
+    width: 90%;
+    margin-top: 8%;
+}
+.advance_cooper .bot img:last-child{
+    width: 57%;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}

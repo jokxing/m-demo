@@ -1,0 +1,299 @@
+.virtual_deposit{
+    padding-bottom: 30px;
+}
+
+.usdtDeposit_close{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.usdtDeposit_close img{
+    width: 70%;
+}
+.usdtDeposit_close p{
+    margin-top: 8%;
+    color: #707070;
+    font-size: 14px;
+}
+.usdtDeposit_close .button{
+    width: 40%;
+    margin-top: 4%;
+}
+
+.virtual_deposit_form{
+    margin-top: 10px;
+}
+.virtual_deposit_form ul{
+    padding-left: 5%;
+    background-color: #fff;
+}
+.virtual_deposit_form ul li{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px #ECECEC solid;
+    padding-right: 5%;
+}
+.virtual_deposit_form ul li:last-child{
+    border-bottom: 0;
+}
+.virtual_deposit_form ul li span.left{
+    float: left;
+    font-size: 1rem;
+}
+.virtual_deposit_form ul li input{
+    float: left;
+    height: 49px;
+    margin-left: 4%;
+    width: 66%;
+}
+.virtual_deposit_form ul li span.right{
+    float: right;
+    color: #AFAFAF;
+    font-size: 0.8rem;
+}
+
+.exchange_rate{
+    width: 90%;
+    margin: 0 auto;
+    line-height: 24px;
+    margin-top: 12px;
+    color: #585858;
+    font-size: 0.9rem;
+}
+.exchange_rate .button{
+    height: 24px;
+    font-size: 0.8rem;
+    line-height: 24px;
+    background-color: #00BBF6!important;
+    float: right;
+    padding: 0 6px;
+}
+.exchange_rate p{
+    margin-bottom: 0;
+    text-align: left!important;
+    font-size: 0.8rem!important;
+}
+.exchange_rate span{
+    font-size: 0.8rem;
+}
+
+
+.virtual_deposit_btn{
+    width: 90%;
+    margin: 26px auto 0;
+}
+.virtual_deposit_btn .button{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.virtual_deposit_ceposit{
+    width: 90%;
+    margin: 0 auto;
+}
+.virtual_deposit_ceposit ul li{
+    width: 50%;
+    height: 24px;
+    line-height: 24px;
+    float: left;
+    font-size: 0.8rem;
+    position: relative;
+}
+.virtual_deposit_ceposit ul li:first-child{
+    text-align: right;
+    padding-right: 5%;
+}
+.virtual_deposit_ceposit ul li:first-child::before{
+    content: '';
+    width: 1px;
+    height: 60%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: #DBDBDB;
+}
+.virtual_deposit_ceposit ul li:last-child{
+    padding-left: 5%;
+}
+
+.virtual_deposit_rule{
+    width: 90%;
+    margin: 8% auto 0;
+    text-align: left;
+}
+.virtual_deposit_rule ul li{
+    padding-left:  20px;
+    position: relative;
+    font-size: 0.7rem;
+    color: #585858;
+    line-height: 18px;
+    margin-bottom: 6px;
+}
+.virtual_deposit_rule ul li span{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 14px;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    color: #fff;
+}
+
+/* 扫描转币 */
+.transfer_money .virtual_deposit_form ul li span.right{
+    color: #000;
+    font-size: 1rem;
+}
+
+.transfer_money_main{
+    width: 100%;
+    margin-top: 6px;
+    background-color: #fff;
+    padding: 18px 5% 10% 5%;
+    text-align: center;
+}
+
+.tranafer_money_tab{
+    float: left;
+    margin-left: 4%;
+}
+.tranafer_money_tab div{
+    padding: 2px 10px;
+    float: left;
+    border: 1px #eee solid;
+    border-radius: 5px;
+    margin-top: 14px;
+    margin-right: 4px;
+    height: 24px;
+    line-height: 18px;
+    font-size: 0.8rem;
+}
+
+.transfer_money_qrcode{
+    width: 162px;
+    height: 162px;
+    background-color: #fff;
+    border: 1px #000 dotted;
+    margin: 0 auto;
+    box-shadow: -1px 2px 7px rgb(0 0 0 / 14%);
+    margin-bottom: 10px;
+}
+
+.transfer_money_main p{
+    font-size: 0.8rem;
+    margin: 0;
+}
+.transfer_money_main p.screenshot{
+    color: #AFAFAF;
+}
+
+.wallet_agreement{
+    margin-top: 28px;
+    margin-bottom: 20px;
+}
+.wallet_agreement div{
+    width: 100%;
+    border: 1px #E6E6E6 solid;
+    border-radius: 8px;
+    padding: 6px 12px;
+    text-align: left;
+    padding-right: 14%;
+    position: relative;
+    margin-top: 8PX;
+}
+.wallet_agreement div img{
+    width: 24px;
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
+}
+
+.transfer_money_main .button{
+    width: 100%;
+}
+
+.transfer_money_main .virtual_deposit_rule{
+    width: 100%;
+}
+
+
+.progress{
+    margin-bottom: 12px;
+}
+.progress li{
+    float: left;
+    width: calc(50% - 10px);
+    height: 20px;
+    position: relative;
+}
+.progress li:first-child{
+    padding-left: 5%;
+}
+.progress li:nth-child(2){
+    width: calc(50% - 30px);
+}
+.progress li:last-child{
+    width: 20px;
+}
+.progress li:first-child::before{
+    content: '';
+    width: calc(100% - 5% - 28px);
+    height: 1.5px;
+    background-color: #AFAFAF;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+.progress li:nth-child(2)::before{
+    content: '';
+    width: calc(100% - 20px);
+    height: 1px;
+    background-color: #AFAFAF;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.progress_p li{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+}
+.progress_p li:first-child{
+    text-align: left;
+}
+.progress_p li:last-child{
+    text-align: right;
+}
+
+.deposit_detailed_btn{
+    width: 90%;
+    margin: 42px auto 0;
+}
+.deposit_detailed_btn .button{
+    width: 100%;
+}
+
+.transfer_money_qrcode #qrcode canvas{
+    width: 148px;
+    margin-top: 6px;
+}
+
+.virtual_deposit .revoke {
+    width: 100%;
+    height: 44px;
+    background: initial;
+    border: 0;
+    margin-bottom: 30px;
+}

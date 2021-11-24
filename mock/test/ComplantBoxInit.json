@@ -1,0 +1,9 @@
+{
+    "status_code": 200,
+    "message": {
+        "WaiterName|3": [{
+            "id|100-200": 103,
+            "name": "@cname()"
+        }]
+    }
+}

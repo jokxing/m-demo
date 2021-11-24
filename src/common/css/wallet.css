@@ -1,0 +1,23 @@
+#wallet .bar.bar-light .title {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    width: 73%;
+    margin: 0 auto;
+}
+#wallet .bar.bar-light .title span {
+    position: relative;
+    font-size: 18px;
+    font-size: 1rem;
+}
+
+#wallet .bar.bar-light .title span.active::before {
+    content: '';
+    width: 138%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}

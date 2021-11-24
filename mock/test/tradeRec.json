@@ -1,0 +1,13 @@
+{
+    "status_code": 200,
+    "message": {
+        "list|2": [{
+            "id": "@id()",
+            "fundsn": "@id()",
+            "type": "@ctitle(2)",
+            "status|0-3": 0,
+            "created_at": "@now()",
+            "apply_amount|1-10": 1
+        }]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "status_code": 200,
+    "message": {
+        "list": {
+            "list": [{
+                "day": "第1天",
+                "give_money": 8,
+                "give_money_2": 28
+            }, {
+                "day": "第2天",
+                "give_money": 8,
+                "give_money_2": 28
+            }, {
+                "day": "第3天",
+                "give_money": 8,
+                "give_money_2": 28
+            }, {
+                "day": "第4天",
+                "give_money": 8,
+                "give_money_2": 28
+            }, {
+                "day": "第5天",
+                "give_money": 8,
+                "give_money_2": 28
+            }, {
+                "day": "第6天",
+                "give_money": 18,
+                "give_money_2": 58
+            }, {
+                "day": "第7天",
+                "give_money": 18,
+                "give_money_2": 58
+            }]
+        },
+        "info": {
+            "nextStep": 1,
+            "signed": 0,
+            "beat": 0,
+            "signDay": 0
+        }
+    }
+}

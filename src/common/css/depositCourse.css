@@ -1,0 +1,73 @@
+#depositCourse .page-content{
+	background-color: initial!important;
+}
+
+.newDepositTutorial .tabsBox {
+  width: 100%;
+  position: fixed;
+}
+.newDepositTutorial .tabsBox .swicthWrap {
+  background: #fff;
+  width: 100%;
+}
+
+/**************tab *****************/
+.tabsBox {
+  padding: 0 0.2rem;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+.tabsBox2 {
+  display: block;
+}
+.tabsBox::-webkit-scrollbar {
+  display: none;
+}
+.tabsBox .swicthWrap {
+  height: 50px;
+}
+.tabsBox2 .swicthWrap {
+  display: block;
+}
+
+.tabsBox .swicthWrap li {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  width: 33%;
+  text-align: center;
+  font-size: 1rem;
+  color: rgba(74, 74, 74, 1);
+  float: left;
+  position: relative;
+}
+.tabsBox .swicthWrap li.active::before{
+    content: '';
+    width: 80%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/**************教程图片 *****************/
+.containerFull{
+	width: 100%;
+	margin-top: 56px;
+	text-align: center;
+	overflow-y: auto;
+	position: fixed;
+}
+.containerFull::-webkit-scrollbar{
+	display: none;
+}
+.containerFull > div{
+	padding-bottom: 60%;
+}
+.containerFull img{
+	width: 64%;
+}

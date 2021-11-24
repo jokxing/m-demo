@@ -1,0 +1,11 @@
+{
+    "success":{
+        "access_token": "@guid()",
+        "token_type": "Bearer",
+        "expires_in": 258000
+    },
+    "error":{
+        "message": "用户名或密码错误",
+        "status_code": 412
+    }
+}

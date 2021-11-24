@@ -1,0 +1,571 @@
+#discount .page.has-navbar .page-content{
+    padding-top: 44px;
+}
+
+.app_hdzq_back{
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    top: 5px;
+    left: 3%;
+    z-index: 1;
+    opacity: 0.7;
+}
+.app_hdzq_back img{
+    width: 100%;
+}
+
+.discount_tab{
+    position: fixed;
+    top: 44px;
+    width: 100%;
+    z-index: 2;
+    background-color: #fff;
+    overflow-x: auto;
+}
+.discount_tab::-webkit-scrollbar{
+    display: none;
+}
+.discount_tab ul{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 92%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.discount_tab ul li{
+    width: 16.6%;
+    text-align: center;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+}
+.discount_tab ul li.active::before{
+    content: '';
+    width: 76%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.discount_main{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding-bottom: 50px;
+    position: relative;
+}
+.discount_list{
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+    margin-bottom: 16px;
+    position: relative;
+}
+.discount_list .discount_flag{
+    width: 50px;
+    height: 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 0 0 10px 0;
+    z-index: 1;
+}
+.discount_flag.state_0{
+    background-color: #08b552;
+}
+.discount_flag.state_1{
+    background-color: #05b7d3;
+}
+.discount_flag.state_2{
+    background-color: #008dff;
+}
+.discount_flag.state_3{
+    background-color: #fa6262;
+}
+.discount_flag.state_4{
+    background-color: #ff6939;
+}
+.discount_img{
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    position: relative;
+}
+.discount_img img{
+    width: 100%;
+}
+.discount_newImg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.discount_txt{
+    padding: 7px 24px;
+    background-color: #fff;
+}
+.discount_txt h5,
+.discount_txt p{
+    margin: 0;
+}
+.discount_txt h5{
+    margin-bottom: 4px;
+    font-size: 0.9rem;
+}
+.discount_txt p{
+    font-size: 0.8rem;
+    color: #697b8c;
+}
+.discount_txt h5 span {
+    float: right;
+    font-size: 0.8rem;
+}
+
+
+/* 浮窗 */
+.my_beat{
+    padding-right: 4px;
+    position: absolute;
+    top: 24%;
+    right: 0;
+    border-radius: 50px 0 0 50px;
+    transition: all .3s;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    overflow: hidden;
+}
+#gift .beat_two,
+#bestdraw .my_beat{
+    height: 42px;
+}
+#gift .beat_three{
+    height: 78px;
+}
+#chessHand .my_beat{
+    height: 102px;
+}
+.my_beat_img{
+    width: 64px;
+    height: 64px;
+    border: 3px #fff solid;
+    border-radius: 50%;
+    float: left;
+}
+#gift .beat_two .my_beat_img{
+    width: 42px;
+    height: 42px;
+}
+.my_beat_img img{
+    height: 100%;
+}
+.my_beat_p{
+    float: left;
+    margin-left: 4px;
+}
+.my_beat_p p{
+    margin: 0;
+    color: #fff;
+    font-size: 0.8rem;
+    line-height: 19px;
+    opacity: 1;
+    transition: all .5s;
+}
+.my_beat_p p span{
+    color: yellow;
+}
+.my_beat .my_money{
+    width: 34px;
+    color: #fff;
+    float: left;
+    font-size: 0.8rem;
+    margin-left: 4px;
+    opacity: 1;
+    overflow: hidden;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.my_dtp{
+    height: 42px!important;
+}
+.my_dtp .my_beat_img{
+    width: 42px;
+    height: 42px;
+}
+
+.gift_main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.gift_banner {
+    text-align: center;
+    padding-top: 6%;
+    margin-bottom: 7%;
+}
+.gift_banner img{
+    width: 90%;
+    margin-bottom: 6%;
+}
+.gift_banner ul{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.gift_banner ul li{
+    width: 48%;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 25px;
+    border: 1px #697b8c solid;
+    color: #697b8c;
+    margin-bottom: 3%;
+}
+
+.gift_tab{
+    margin-bottom: 5%;
+}
+.gift_tab ul li {
+    width: 50%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    border-bottom: 1px solid rgba(200, 200, 200, .5);
+    color: #697b8c;
+}
+.gift_tab ul li.active{
+    border-bottom: 2px solid;
+}
+
+.gift_box p{
+    font-size: 0.8rem;
+    color: #999;
+    margin-bottom: 0;
+}
+
+.gift_money_list{
+    margin-bottom: 2%;
+}
+.gift_money_list ul li{
+    width: 100%;
+    height: 40px;
+    line-height: 38px;
+    margin-bottom: 4%;
+}
+.gift_money_list ul li .left{
+    width: 38%;
+    float: left;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #555;
+    text-align: center;
+}
+.gift_money_list ul li .right{
+    width: 62%;
+    height: 100%;
+    border: 1px #ccc solid;
+    float: right;
+    padding-left: 2%;
+    color: #c4c4c4;
+    background-color: #f8fafa;
+}
+
+.gift_money_list ul li.active .right{
+    color: #666;
+    background: rgb(255 255 255 / 39%);
+    border-color: #ccc;
+}
+
+.gift_box{
+    padding-bottom: 6%;
+}
+.gift_box h4{
+    margin-bottom: 10px;
+}
+
+.gift_box ul{
+    margin-bottom: 6%;
+}
+.gift_box ul li span{
+    display: initial;
+}
+
+.gift_box .button{
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    margin-bottom: 3%;
+}
+.gift_box .speed{
+    border: 1px solid;
+    background-color: initial!important;
+    box-shadow: none;
+}
+
+.gift_box h5{
+    height: 16px;
+    font-weight: bold;
+    padding-left: 3%;
+    position: relative;
+    margin: 0;
+    margin-bottom: 8px;
+}
+.gift_box h5::after{
+    content: '';
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.gift_box span{
+    line-height: 22px;
+    display: block;
+    word-break: break-word;
+    font-size: 0.8rem;
+    color: #000;
+}
+
+.hzdq_menu{
+    position: fixed;
+    top: 16%;
+    right: 0;
+}
+.hzdq_menu span{
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    margin-bottom: 8%;
+    padding:0 10px 0 14px;
+    border-radius: 25px 0 0 25px;
+    font-size: 0.8rem;
+    background-color: #fff;
+    box-shadow: 0 5px 10px 8px rgba(189, 189, 189, .13);
+}
+
+
+.gift_detail_bg{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.gift_detail{
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+.gift_detail_head{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 0.8rem;
+    z-index: 1;
+    position: relative;
+    border-bottom: 1px solid rgba(200, 200, 200, .5);
+}
+.gift_detail_head i{
+    font-size: 2rem;
+    position: absolute;
+    top: 0;
+    right: 3%;
+    line-height: 50px;
+}
+
+.gift_detail_main{
+    padding-top: 7%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+.gift_detail_main span{
+    width: 30%;
+    text-align: center;
+    margin: 0 2% 5%;
+    font-size: 0.8rem;
+    color: #666666;
+}
+.gift_detail_main span img{
+    display: block;
+    width: 100%;
+    margin-bottom: 0.2rem;
+}
+
+.gift_money_main{
+    width: 94%;
+    margin: 0 auto;
+    padding-top: 3%;
+}
+.gift_money_main p{
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.gift_money_main ul{
+    margin-bottom: 4%;
+}
+.gift_money_main ul li{
+    width: 24%;
+    min-height: 60px;
+    float: left;
+    border: 1px #eee solid;
+    border-radius: 7px;
+    padding: 10px 0;
+    margin-right: 1%;
+    font-size: 0.8rem;
+    position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+}
+.gift_money_main ul li.active::before{
+    content: '';
+    width: 16px;
+    height: 16px;
+    background: url(../img/discount/depnav_active.png) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+.gift_money_main .button{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 5%;
+}
+
+
+
+.activityRules {
+    background: #fff;
+    position: relative;
+    padding-bottom: 14px;
+}
+.activityRules .title {
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 3%;
+}
+.activityRules .title span{
+    position: relative;
+    font-size: 1rem;
+}
+.activityRules .title span img {
+    height: 15px;
+    position: absolute;
+    left: -9px;
+    top: 4px;
+}
+
+.activityRules > p {
+    padding-left: 9%;
+    padding-right: 2%;
+    position: relative;
+    margin-bottom: 3%;
+    line-height: 22px;
+    font-size: 0.8rem;
+    color: #98a5b3;
+}
+.activityRules > p > span {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 2%;
+    top: 3px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 16px;
+    color: #fff;
+}
+/* 统一返回顶部 */
+.back_top_bg{
+    padding: 10px 0;
+    background-color: #f6f7fc;
+}
+.back_top{
+    width: 105px;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.back_top a{
+    display: block;
+}
+.back_top p{
+    color: #98a7b5;
+    margin-top: -6px;
+}

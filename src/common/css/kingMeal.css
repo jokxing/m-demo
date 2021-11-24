@@ -1,0 +1,223 @@
+#king_meal{
+    width: 100%;
+    height: auto;
+}
+
+#king_meal .page-content{
+    background-color: rgb(246, 247, 252)!important;
+}
+
+#king_meal .king_meal_main{
+    background: url(../img/discount/kingMeal_bg.jpg) no-repeat center top rgb(205, 224, 230);
+    background-size: 100%;
+}
+
+.picBox{
+    width: 100%;
+    height: 45.5rem;
+    position: relative;
+    box-sizing: border-box;
+}
+.picBox .teamInfo {
+    background-color: #ffffff;
+    width: 90%;
+    padding: 3%;
+    border-radius: 0.4rem;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 5px 20px 0 rgba(229, 244, 255, 0.75);
+    box-sizing: border-box;
+    -webkit-border-radius: 0.12rem;
+    -moz-border-radius: 0.12rem;
+    -ms-border-radius: 0.12rem;
+    -o-border-radius: 0.12rem;
+    border-radius: 5px;
+}
+.picBox .teamInfo table {
+    width: 100%;
+    border-spacing: 0;
+    background-color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+}
+.picBox .teamInfo tbody{
+    vertical-align: middle;
+}
+.picBox .teamInfo table thead tr {
+    width: 100%;
+    background: rgb(239, 242, 246);
+    height: 35px;
+    line-height: 35px;
+}
+.picBox .teamInfo table thead tr th{
+    border-right: 0.8px solid rgb(239, 242, 246);
+    border-left: 0.8px solid rgb(239, 242, 246);
+}
+
+.picBox .teamInfo table tbody tr td:first-child{
+    border-left: 0.8px solid #f4f6f9;
+}
+.picBox .teamInfo table tbody tr td {
+    height: 108px;
+    border-right: 0.8px solid #f4f6f9;
+    border-bottom: 0.8px solid #f4f6f9;
+    font-size: 0.7rem;
+    vertical-align: middle;
+}
+
+.picBox .teamInfo table tbody tr td .game_name {
+    color: rgb(102, 102, 102);
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.picBox .teamInfo table tbody tr td .game_time {
+    color: rgb(102, 102, 102);
+    text-align: center;
+}
+.picBox .teamInfo table tbody tr td.teamLogo {
+    justify-content: center;
+    position: relative;
+}
+.picBox .teamInfo table tbody tr td.teamLogo > span {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    width: 46%;
+    margin-top: 2px;
+}
+.picBox .teamInfo table tbody tr td.teamLogo > span img {
+    height: 30px;
+    width: auto;
+}
+.picBox .teamInfo table tbody tr td.teamLogo > span i {
+    display: block;
+    font-style: normal;
+    color: rgb(102, 102, 102);
+    width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    padding: 0 2px;
+}
+.picBox .teamInfo table tbody tr td.teamLogo > i {
+    font-style: normal;
+    color: rgb(102, 102, 102);
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    position: absolute;
+    left: 52%;
+    top: 50%;
+}
+
+.king_meal_main .rules {
+    width: 96%;
+    margin: 0 auto;
+    margin-top: 4%;
+}
+.king_meal_main .rules .rules_img{
+    width: 23%;
+    height: 102px;
+    line-height: 102px;
+    float: left;
+}
+.king_meal_main .rules .rules_img img {
+    width: 100%;
+    vertical-align: middle;
+}
+.king_meal_main .rules .rulesBox .ruleItem {
+    font-size: 0.8rem;
+    margin-bottom: 2px;
+}
+.king_meal_main .rules .rulesBox .ruleItem .noColor {
+    color: rgb(51, 51, 51);
+}
+.king_meal_main .rules .rulesBox .ruleItem .colored {
+    color: rgb(89, 126, 247);
+}
+
+.king_meal_main .otherRules {
+    width: 92%;
+    margin: 0 auto;
+    margin-top: 2%;
+    line-height: 20px;
+    word-break: break-word;
+    font-size: 0.8rem;
+    color: rgb(51, 51, 51);
+    padding-bottom: 4%;
+}
+.king_meal_main .otherRules span {
+    color: rgb(89, 126, 247);
+}
+
+.king_meal_main .vipInfo {
+    width: 100%;
+    border-spacing: 0;
+    background: #fff;
+}
+.king_meal_main .vipInfo > div {
+    height: 48px;
+    line-height: 48px;
+    background: rgb(244, 246, 249);
+    border-top: 1 #fff solid;
+    color: rgb(102, 102, 102);
+    text-align: center;
+    display: flex;
+    border-bottom: 1px solid #eee;
+}
+.king_meal_main .vipInfo > div span {
+    display: block;
+    flex: 1;
+}
+.king_meal_main .vipInfo > div span:first-child {
+    border-right: 1px solid #eee;
+}
+.king_meal_main .vipInfo > p {
+    display: block;
+    flex: 1;
+    height: 48px;
+    line-height: 48px;
+    display: flex;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 0;
+}
+.king_meal_main .vipInfo > p span {
+    display: block;
+    flex: 1;
+}
+.king_meal_main .vipInfo > p span:first-child {
+    border-right: 1px solid #eee;
+}
+.king_meal_main .resume {
+    color: rgb(153, 153, 153);
+    font-size: 0.7rem;
+    line-height: 20px;
+    padding: 3% 12px 15px 12px;
+    background-color: #f6f7fc;
+}
+
+
+
+@media screen and (min-width: 410px) and (max-width:413px){
+    .picBox{
+        height: 50.5rem;
+    }
+}
+@media screen and (min-width: 320px) and (max-width:340px){
+    .picBox{
+        height: 50.5rem;
+    }
+}
+@media screen and (min-width: 350px) and (max-width:360px){
+    .picBox{
+        height: 53.5rem;
+    }
+}

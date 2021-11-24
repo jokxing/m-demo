@@ -1,0 +1,10 @@
+{
+    "status_code": 200,
+    "message": {
+        "rate": 3,
+        "money_min|1-10": 1,
+        "money_max|20-50": 20,
+        "is_doing": 0,
+        "isClose": 0
+    }
+}

@@ -1,0 +1,708 @@
+{
+    "status_code": 200,
+    "message": [{
+        "vip_info": {
+            "dpt_rate|0-2": 0,
+            "dpt_count|0-2": 0,
+            "wtd_count|0-3": 0,
+            "wtd_money|10-100": 10,
+            "upgrade_gift": 0,
+            "birth_gift": 0,
+            "every_month_gift": 0,
+            "every_month_gift_dlimit": 3
+        },
+        "vip_detail": [{
+            "name": "@cword(2,3)",
+            "value|0-100": 0
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value|0-100": 0
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 5)倍"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "每月@integer(1, 3)次"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "无"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }],
+        "member_vip": {
+            "bonus_apply_amount": 0,
+            "bonus_got_amount": 0,
+            "bonus_limit_amount": 0,
+            "completed_beat": 300,
+            "completed_dpt": 100,
+            "upgrade_beat": 300,
+            "upgrade_dpt": 100,
+            "save_beat": 400
+        },
+        "is_my_vip": 2,
+        "vip_level": "1级",
+        "gift_cost": 0
+    }, {
+        "vip_info": {
+            "dpt_rate|0-2": 0,
+            "dpt_count|0-2": 0,
+            "wtd_count|0-3": 0,
+            "wtd_money|100-200": 100,
+            "upgrade_gift|1-10": 1,
+            "birth_gift|1-10": 1,
+            "every_month_gift": 1,
+            "every_month_gift_dlimit": 3
+        },
+        "vip_detail": [{
+            "name": "@cword(2,3)",
+            "value|0-100": 0
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value|0-100": 0
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 5)倍"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "每月@integer(1, 3)次"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "无"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }],
+        "member_vip": {
+            "bonus_apply_amount": 0,
+            "bonus_got_amount": 0,
+            "bonus_limit_amount": 0,
+            "completed_beat|301-400": 301,
+            "completed_dpt|101-200": 101,
+            "upgrade_beat": 400,
+            "upgrade_dpt": 200,
+            "save_beat": 600
+        },
+        "is_my_vip": 1,
+        "vip_level": "2级",
+        "gift_cost": 0
+    }, {
+        "vip_info": {
+            "dpt_rate": 1,
+            "dpt_count": 1,
+            "wtd_count": 3,
+            "wtd_money|200-300": 200,
+            "upgrade_gift|10-15": 10,
+            "birth_gift|10-15": 10,
+            "every_month_gift": 2,
+            "every_month_gift_dlimit": 3
+        },
+        "vip_detail": [{
+            "name": "@cword(2,3)",
+            "value|0-100": 0
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value|0-100": 0
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 5)倍"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "每月@integer(1, 3)次"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "无"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }],
+        "member_vip": {
+            "bonus_apply_amount": 0,
+            "bonus_got_amount": 0,
+            "bonus_limit_amount": 0,
+            "completed_beat": 0,
+            "completed_dpt": 0,
+            "upgrade_beat": 500,
+            "upgrade_dpt": 300,
+            "save_beat": 800
+        },
+        "is_my_vip": 0,
+        "vip_level": "3级",
+        "gift_cost": 0
+    }, {
+        "vip_info": {
+            "dpt_rate": 1,
+            "dpt_count": 1,
+            "wtd_count": 3,
+            "wtd_money|300-400": 300,
+            "upgrade_gift|15-20": 15,
+            "birth_gift|15-20": 15,
+            "every_month_gift": 3,
+            "every_month_gift_dlimit": 3
+        },
+        "vip_detail": [{
+            "name": "@cword(2,3)",
+            "value|0-100": 0
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value|0-100": 0
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 5)倍"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "每月@integer(1, 3)次"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "无"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }],
+        "member_vip": {
+            "bonus_apply_amount": 0,
+            "bonus_got_amount": 0,
+            "bonus_limit_amount": 0,
+            "completed_beat": 0,
+            "completed_dpt": 0,
+            "upgrade_beat": 600,
+            "upgrade_dpt": 400,
+            "save_beat": 1000
+        },
+        "is_my_vip": 0,
+        "vip_level": "4级",
+        "gift_cost": 0
+    }, {
+        "vip_info": {
+            "dpt_rate": 1,
+            "dpt_count": 1,
+            "wtd_count": 3,
+            "wtd_money|400-500":400,
+            "upgrade_gift|20-25": 20,
+            "birth_gift|20-25": 20,
+            "every_month_gift": 4,
+            "every_month_gift_dlimit": 3
+        },
+        "vip_detail": [{
+            "name": "@cword(2,3)",
+            "value|0-100": 0
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value|0-100": 0
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 5)倍"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "每月@integer(1, 3)次"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "无"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }],
+        "member_vip": {
+            "bonus_apply_amount": 0,
+            "bonus_got_amount": 0,
+            "bonus_limit_amount": 0,
+            "completed_beat": 0,
+            "completed_dpt": 0,
+            "upgrade_beat": 700,
+            "upgrade_dpt": 500,
+            "save_beat": 1200
+        },
+        "is_my_vip": 0,
+        "vip_level": "5级",
+        "gift_cost": 0
+    }, {
+        "vip_info": {
+            "dpt_rate": 1,
+            "dpt_count": 3,
+            "wtd_count": 4,
+            "wtd_money|500-600":500,
+            "upgrade_gift|25-30": 25,
+            "birth_gift|25-30": 25,
+            "every_month_gift": 5,
+            "every_month_gift_dlimit": 3
+        },
+        "vip_detail": [{
+            "name": "@cword(2,3)",
+            "value|0-100": 0
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value|0-100": 0
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 5)倍"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "每月@integer(1, 3)次"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "无"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }],
+        "member_vip": {
+            "bonus_apply_amount": 0,
+            "bonus_got_amount": 0,
+            "bonus_limit_amount": 0,
+            "completed_beat": 0,
+            "completed_dpt": 0,
+            "upgrade_beat": 800,
+            "upgrade_dpt": 600,
+            "save_beat": 1400
+        },
+        "is_my_vip": 0,
+        "vip_level": "6级",
+        "gift_cost": 0
+    }, {
+        "vip_info": {
+            "dpt_rate": 1,
+            "dpt_count": 3,
+            "wtd_count": 4,
+            "wtd_money|600-700":600,
+            "upgrade_gift|30-35": 30,
+            "birth_gift|30-35": 30,
+            "every_month_gift": 6,
+            "every_month_gift_dlimit": 3
+        },
+        "vip_detail": [{
+            "name": "@cword(2,3)",
+            "value|0-100": 0
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value|0-100": 0
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 5)倍"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "每月@integer(1, 3)次"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "无"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }],
+        "member_vip": {
+            "bonus_apply_amount": 0,
+            "bonus_got_amount": 0,
+            "bonus_limit_amount": 0,
+            "completed_beat": 0,
+            "completed_dpt": 0,
+            "upgrade_beat": 900,
+            "upgrade_dpt": 700,
+            "save_beat": 1600
+        },
+        "is_my_vip": 0,
+        "vip_level": "7级",
+        "gift_cost": 0
+    }, {
+        "vip_info": {
+            "dpt_rate": 1,
+            "dpt_count": 3,
+            "wtd_count": 4,
+            "wtd_money|700-800":700,
+            "upgrade_gift|35-40": 35,
+            "birth_gift|35-40": 35,
+            "every_month_gift": 7,
+            "every_month_gift_dlimit": 3
+        },
+        "vip_detail": [{
+            "name": "@cword(2,3)",
+            "value|0-100": 0
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value|0-100": 0
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 5)倍"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "每月@integer(1, 3)次"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "无"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }],
+        "member_vip": {
+            "bonus_apply_amount": 0,
+            "bonus_got_amount": 0,
+            "bonus_limit_amount": 0,
+            "completed_beat": 0,
+            "completed_dpt": 0,
+            "upgrade_beat": 1000,
+            "upgrade_dpt": 800,
+            "save_beat": 1800
+        },
+        "is_my_vip": 0,
+        "vip_level": "8级",
+        "gift_cost": 0
+    }, {
+        "vip_info": {
+            "dpt_rate": 1,
+            "dpt_count": 3,
+            "wtd_count": 4,
+            "wtd_money|800-900":800,
+            "upgrade_gift|40-45": 40,
+            "birth_gift|40-45": 40,
+            "every_month_gift": 8,
+            "every_month_gift_dlimit": 3
+        },
+        "vip_detail": [{
+            "name": "@cword(2,3)",
+            "value|0-100": 0
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value|0-100": 0
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 5)倍"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "每月@integer(1, 3)次"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "无"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }],
+        "member_vip": {
+            "bonus_apply_amount": 0,
+            "bonus_got_amount": 0,
+            "bonus_limit_amount": 0,
+            "completed_beat": 0,
+            "completed_dpt": 0,
+            "upgrade_beat": 1100,
+            "upgrade_dpt": 900,
+            "save_beat": 2000
+        },
+        "is_my_vip": 0,
+        "vip_level": "9级",
+        "gift_cost": 0
+    }, {
+        "vip_info": {
+            "dpt_rate": 1,
+            "dpt_count": 5,
+            "wtd_count": 5,
+            "wtd_money|900-1000":900,
+            "upgrade_gift|45-50": 45,
+            "birth_gift|45-50": 45,
+            "every_month_gift": 9,
+            "every_month_gift_dlimit": 3
+        },
+        "vip_detail": [{
+            "name": "@cword(2,3)",
+            "value|0-100": 0
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value|0-100": 0
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 5)倍"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "每月@integer(1, 3)次"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "无"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }],
+        "member_vip": {
+            "bonus_apply_amount": 0,
+            "bonus_got_amount": 0,
+            "bonus_limit_amount": 0,
+            "completed_beat": 0,
+            "completed_dpt": 0,
+            "upgrade_beat": 1200,
+            "upgrade_dpt": 1000,
+            "save_beat": 2200
+        },
+        "is_my_vip": 0,
+        "vip_level": "10级",
+        "gift_cost": 0
+    }, {
+        "vip_info": {
+            "dpt_rate": 1,
+            "dpt_count": 7,
+            "wtd_count": 5,
+            "wtd_money|1000-1100":1000,
+            "upgrade_gift|50-55": 50,
+            "birth_gift|50-55": 50,
+            "every_month_gift": 10,
+            "every_month_gift_dlimit": 3
+        },
+        "vip_detail": [{
+            "name": "@cword(2,3)",
+            "value|0-100": 0
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value|0-100": 0
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 5)倍"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "每月@integer(1, 3)次"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "无"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }, {
+            "name": "@cword(2,3)",
+            "value": "@integer(0, 10)%"
+        }],
+        "member_vip": {
+            "bonus_apply_amount": 0,
+            "bonus_got_amount": 0,
+            "bonus_limit_amount": 0,
+            "completed_beat": 0,
+            "completed_dpt": 0,
+            "upgrade_beat": 0,
+            "upgrade_dpt": 0,
+            "save_beat": 0
+        },
+        "is_my_vip": 0,
+        "vip_level": "11级",
+        "gift_cost": 0
+    }]
+}

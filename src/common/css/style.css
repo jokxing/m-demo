@@ -1,0 +1,323 @@
+:root{
+	--primary:#5780E9; /*主色*/
+	--btnColor: #6386FE; /*按钮主色*/
+	--bgColor: #F8FAFA; /*背景颜色*/
+}
+
+.fix {
+	*zoom: 1;
+}
+
+.fix:after {
+	display: block;
+	content: "clear";
+	height: 0;
+	clear: both;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+p,h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.fLeft{
+	float: left;
+}
+.fRight{
+	float: right;
+}
+
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+
+
+.page.has-navbar .page-content::-webkit-scrollbar {
+	display:none
+}
+
+.button{
+	min-height: 0;
+}
+
+.bar .title+.buttons{
+	right: 16px;
+}
+
+.backdrop{
+	bottom: 0
+}
+
+/* 头部取消阴影 */
+.bar{
+	background-size: 100% 0px;
+}
+.bar.bar-header{
+	box-shadow: none;
+	border-bottom: 1px #f8fafa solid;
+}
+
+.page{
+	padding-top: 44px;
+}
+
+.main{
+	width: 92%;
+	margin: 0 auto;
+}
+
+/* 背景颜色 */
+.login,
+.page{
+	background-color: var(--bgColor);
+}
+.page .page-content, .modal .page-content{
+	background-color: var(--bgColor);
+}
+
+/* 按钮统一主色 */
+.md-button,
+.btn_active,
+.primary_cr_bg,
+.button.button-positive,
+.auditDetailed_btn button,
+.pagination > div.pageUp a,
+.bestdraw_rule table th,
+.vip_birthday button,
+.vip_beat button,
+#prizesList .three_tab ul li.active,
+.unionSweep_bot button,
+.trade_copyBtn,
+.news .button,
+.vip_give button,
+.hzdq_menu span.active,
+.login_from .button[disabled],
+.shengqianbaoRule_main ul li span{
+	background-color: var(--btnColor)!important;
+	color: #fff!important;
+}
+
+/* 禁止按钮颜色 */
+.button[disabled]{
+	background-color: #CCCCCC!important;
+	opacity: 1;
+}
+
+/* 字体、背景和边框统一主色 */
+.primary_color,
+.primary-color,
+.sidebar h3,
+.footer p.active,
+#announcement .tab ul li.active,
+.about_tab ul li.active,
+.about_box .inner h5,
+.beat_tab ul li.active,
+.tranfer_tab ul li.active,
+.tranfer_tab ul li.active i,
+#wallet .bar.bar-light .title span.active,
+.discount_tab ul li.active,
+.gift_tab ul li.active,
+.primary,
+.trade_tab > ul li.active,
+.gift_box ul li span,
+.gift_box .speed,
+.bestdraw_condition ul li span,
+.bestdraw_btn p span,
+.bestdraw_rule h5,
+.activityRules .title,
+.activityRules ul li span,
+.returnWater_table table th,
+.vip_detail_list ul li span,
+.vip_birthday p span,
+.vip_bonus > div span,
+.vip_discount > div span,
+.receive_bonus ul li span,
+.vip_tabel_tab ul li.active span,
+.vip_tabel table th:first-child,
+.vip_tabel table td:first-child,
+.invitePrizes_tab ul li span.active,
+#prizesList .two_tab ul li.active,
+#prizesList .dateTab ul li.active,
+.wallet_balance span,
+.input_game_money span,
+.input_game_money .all_game_money,
+.deposit .course p span,
+.unionSweep_bot span, .unionSweep_top h5 a,
+#unionSweep_btn .revoke,
+.tabsBox .swicthWrap li.active,
+.inGame_tab ul li.active,
+.login_main .bot i,
+#walletUseGuide .title span.active,
+#usdt_video_course h1 span.active,
+.chessHand_condition .speed{
+	color: var(--primary)!important;
+}
+.primary-bg,
+#announcement .tab ul li.active::before,
+.about_tab ul li.active::before,
+.beat_tab ul li.active::before,
+.tranfer_tab ul li::before,
+#wallet .bar.bar-light .title span.active::before,
+.recharge_money	 ul li.active,
+.withdraw_bot .rule ul li span,
+.helpCenter_main ul li span,
+.gamePopup_head,
+.auditDetailed_head,
+.trade_tab > ul li.active::before,
+.discount_tab ul li.active::before,
+.gift_box h5::after,
+.bestdraw_main .progres .strip.active,
+.bestdraw_main .progres .strip.last::before,
+.bestdraw_main .progres .strip.last::after,
+.bestdraw_main .progres .check.active,
+.activityRules > p > span,
+.feedback_table table th,
+.activityRules > p > span,
+.invitePrizes_tab ul li span.active::before,
+.tabsBox .swicthWrap li.active::before,
+.auditDetailed_main table td.auditDetailed_tg span,
+.auditDetailed_btn button,
+.auditDetailed_head,
+.inGame_tab ul li.active::before,
+.news_T,
+.shengqianbao_main .out_list h5::before,
+#walletUseGuide .title span.active::before,
+.usdt_course_title h3 span,
+#usdt_video_course h1 span.active::before,
+.progress li:first-child::before,
+.my_beat,
+.joinus_inner .slider-pagination-bullet-active{
+	background-color: var(--primary)!important;
+}
+.gift_tab ul li.active,
+.gift_box .speed,
+.vip_tabel_tab ul li.active span,
+#prizesList .two_tab ul li.active,
+#prizesList .dateTab ul li.active,
+.money_detail_list head span.fLeft,
+.usdt_video_tab ul li{
+	border-color: var(--primary)!important;
+}
+
+/* 背景主色的字体颜色 */
+.gamePopup_head{
+	color: #fff;
+}
+
+
+/* 记录列表 */
+.list{
+    width: 100%;
+    margin-top: 10px;
+}
+.list ul{
+    width: 100%;
+    padding: 0 6%;
+}
+.list ul li{
+    line-height: 38px;
+    width: 100%;
+    display: inline-block;
+}
+.list ul li span{
+    display: inline-block;
+}
+.list ul li .left{
+    color: #AFAFAF;
+    float: left;
+}
+.list ul li .right{
+    float: right;
+}
+
+
+/*分页*/
+.pagination {
+    position: relative;
+	margin-top: 30px;
+}
+.pagination > div{
+  	width: 48%;
+    display: inline-block;
+}
+.pagination > div a{
+  	height: 45px;
+  	text-align: center;
+  	line-height: 45px;
+  	display: block;
+    background:#CECECE;
+    color:#fff;
+}
+.pagination > div:last-child,
+.pagination > div:nth-child(3){
+  	float: right;
+}
+
+
+/* 轮询 */
+.listen_bg {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+.news_bg {
+    width: 88%;
+    max-width: 600px;
+	background-color: #fff;
+	border-radius: 5px;
+	z-index: 2;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.news{
+	text-align: center;
+}
+.news_T {
+    color: #fff;
+    border-radius: 3px 3px 0 0;
+    text-align: center;
+    font-size: 0.95rem;
+	line-height: 45px;
+	position: relative;
+}
+.news i{
+	line-height: 45px;
+	color: #fff;
+	font-size: 1.6rem;
+	position: absolute;
+	top: 0;
+	right: 5%;
+}
+.news p {
+	font-weight: bold;
+	border-bottom: 1px #d8d8d8 solid;
+	padding-bottom: 18px;
+}
+.news span{
+	line-height: 50px;
+	color: #666;
+}
+.news .button{
+	width: 100%;
+	margin-top: 20px;
+	box-shadow: none;
+	color: #fff;
+}
+
+.news_In {
+    padding: 18px 22px 22px 22px;
+}
+

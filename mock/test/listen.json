@@ -1,0 +1,9 @@
+{
+    "status_code": 200,
+    "message": {
+        "type": "news",
+        "Money|0-100": 0,
+        "MsgCount|0-2": 0,
+        "Msg": ""
+    }
+}

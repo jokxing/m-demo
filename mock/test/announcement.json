@@ -1,0 +1,7 @@
+{
+    "status_code": 200,
+    "message": {
+        "type": "平台公告",
+        "content":"@ctitle()通知：@cparagraph() # @now()"
+    }
+}

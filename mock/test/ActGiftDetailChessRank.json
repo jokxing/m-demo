@@ -1,0 +1,21 @@
+{
+    "status_code": 200,
+    "message": {
+        "curTime": 1639583999,
+        "start_time_str": 1631203200,
+        "start_time": "2021-09-10 00:00:00",
+        "end_time_str": 1640447999,
+        "end_time": "2021-12-25 23:59:59",
+        "list|100": [{
+            "id|+1": 1,
+            "name": "@word(2)*****@word(2)",
+            "betAmount|1-100": 1,
+            "handsel|1-100": 1
+        }],
+        "ulist": {
+            "betAmount": 0,
+            "id": 99999,
+            "handsel": 0
+        }
+    }
+}

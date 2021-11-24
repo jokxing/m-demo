@@ -1,0 +1,217 @@
+#user .page-content{
+    width: 100%;
+    background-image: url(../img/user_bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center -6%;
+    overflow: hidden;
+}
+
+.user_head{
+    width: 84%;
+    margin: 0 auto;
+}
+
+.user_head_img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 2%;
+    background: #dcdcdc;
+}
+
+.user_head_txt{
+    float: left;
+    margin-top: 6px;
+}
+.user_head_txt h4{
+    font-size: 20px;
+    color: #fff;
+    line-height: 26px;
+}
+.user_head_txt img{
+    vertical-align: middle;
+}
+.user_head_txt p{
+    color: #fff;
+    font-size: 14px;
+}
+
+.user_infor{
+    width: 84%;
+    height: 40px;
+    margin: 0 auto;
+    background: #1c2f43;
+    border-radius: 8px 8px 0 0;
+    margin-top: 10px;
+    line-height: 40px;
+    color: #DBD19B;
+    padding: 0 2.4%;
+    position: relative;
+}
+.user_infor ul li{
+    width: 50%;
+    line-height: 40px;
+    float: left;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+}
+/* .user_infor ul li:last-child{
+    justify-content: flex-end;
+} */
+.user_infor ul li i{
+    margin-left: 6%;
+    font-size: 1.2rem;
+}
+.user_infor ul li img{
+    float: left;
+    margin-right: 2%;
+}
+.user_infor ul li span{
+    float: left;
+    margin-right: 3%;
+}
+.user_infor ul li div{
+    float: left;
+}
+
+.user_infor .login_see{
+    color: #DBD19B;
+    font-size: 0.6rem;
+    margin-left: 4%;
+}
+
+
+.user_fun{
+    width: 92%;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 8px;
+    padding: 18px 0;
+}
+.user_fun ul.top{
+    padding: 0 7.6%;
+    margin-bottom: 7%;
+}
+.user_fun ul.top li{
+    width: 50%;
+    float: left;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.user_fun ul.top li:last-child{
+    justify-content: flex-end;
+}
+.user_fun ul.top li img:first-child{
+    margin-right: 5%;
+}
+
+.user_fun ul.top li img.recommend_label{
+    width: 38px;
+    position: absolute;
+    top: -12px;
+    right: -26px;
+}
+
+
+.user_fun ul.bot li{
+    width: 25%;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+}
+.user_fun ul.bot li a{
+    color: #707070;
+}
+.user_fun ul.bot li img{
+    width: 40%;
+}
+
+
+.user_list{
+    margin-top: 10px;
+    overflow-y: auto;
+}
+.user_list::-webkit-scrollbar {
+	display:none
+}
+.user_list ul {
+    background: #fff;
+    padding-left: 6%;
+    margin-bottom: 10px;
+}
+.user_list ul li{
+    width: 100%;
+    border-bottom: 1px #E9E8E8 solid;
+    height: 58px;
+    line-height: 58px;
+    position: relative;
+}
+.user_list ul li img{
+    width: 36px;
+    position: absolute;
+    top: 8px;
+    left: 96px;
+}
+.user_list ul li a{
+    color: #000;
+    display: block;
+}
+.user_list ul li:last-child{
+    border-bottom: 0;
+}
+.user_list ul li i{
+    position: relative;
+}
+.user_list ul li i:first-child{
+    float: left;
+    margin-right: 14px;
+    width: 20px;
+    height: 58px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.user_list ul li i.ion-chevron-right{
+    float: right;
+    color: #D1D1D1;
+    padding-right: 10%;
+}
+
+.user_list ul li i.icon-bestdraw{
+    background-image: url(../img/icon-bestdraw.png);
+}
+.user_list ul li i.icon-joint-venture{
+    background-image: url(../img/icon-joint-venture.png);
+}
+.user_list ul li i.icon-shuju{
+    background-image: url(../img/icon-shuju.png);
+}
+.user_list ul li i.icon-Message{
+    background-image: url(../img/icon-Message.png);
+}
+.user_list ul li i.icon-message{
+    background-image: url(../img/icon-Message.png);
+}
+.user_list ul li i.icon-xiugai{
+    background-image: url(../img/icon-Message.png);
+}
+
+.user_list ul li i span{
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 14px;
+    right: -5px;
+}
+
+@media screen and (min-width: 400px){
+    #user .page-content{
+        background-position: center -12%;
+    }
+}

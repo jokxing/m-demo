@@ -1,0 +1,100 @@
+.about_tab{
+    width: 100%;
+    height: 40px;
+    border-top: 1px #E9E8E8 solid;
+    background-color: #fff;
+}
+.about_tab ul li{
+    width: 33.3%;
+    line-height: 40px;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+.about_tab ul li.active::before{
+    content: '';
+    width: 36%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.about_box{
+    width: 100%;
+    margin-top: 10px;
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+.about_box .inner{
+    width: 90%;
+    margin: 0 auto;
+    padding: 5% 0;
+}
+.about_box .inner h5,
+.about_box .inner p{
+    line-height: 26px;
+    text-indent: 2em;
+}
+
+.about_box .license_box {
+    width: 100%;
+    box-sizing: border-box;
+    color: #000;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+.about_box .license_box a{
+    color: #000;
+}
+.about_box .license_box img {
+    width: 60%;
+    display: table;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.about_box .accordionBox .accordion {
+    width: 100%;
+    text-align: center;
+}
+.about_box .accordionBox .accordion span {
+    font-size: 1rem;
+}
+
+.about_box .related_box {
+    margin: 0 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.about_box .main_related_T {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 0.8rem;
+    line-height: 20px;
+}
+.about_box .indent{
+    text-indent: 2em;
+}
+.about_box .main_related_T a{
+    color: red;
+}
+
+.about_box .accordionBox .accordion {
+    width: 100%;
+    text-align: center;
+}
+.about_box .accordionBox .accordion span {
+    font-size: 1rem;
+}
+.pagcorImg {
+    text-align: center;
+}
+
+.pagcorImg img {
+    width: 66%;
+}

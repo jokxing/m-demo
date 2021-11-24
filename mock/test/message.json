@@ -1,0 +1,13 @@
+{
+    "status_code": 200,
+    "message": {
+        "list|5": [{
+            "title": "@ctitle()",
+            "content": "@cword()",
+            "created_at": "@now()",
+            "is_read|0-1": 0,
+            "type": 5,
+            "id": "@increment(1000)"
+        }]
+    }
+}
